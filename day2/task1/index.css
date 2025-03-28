@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h1+p{
+    text-align: center;
+}
+hr {
+    border: none; 
+    border-top: 2px dotted rgb(238, 138, 17); 
+    width: 80%; 
+}
+h2{
+    color: red;
+    text-align: center;
+}
+h2+p{
+    color:#03a19d;
+}
+img{
+    display: block;
+     margin: auto;
+    }
+.end-h{
+    color: aqua;
+}
+end-w{
+    color: #03a19d;
+}

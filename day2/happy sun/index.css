@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2d6d0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    background-color: #fff;
+    border: 10px solid #d0c2b1;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 10px solid #d0c2b1;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 1.5rem; /* Adjusted from invalid '10' */
+    color: #8b5e57;
+}
+
+img.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.university-links {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.university-links a {
+    color: #8b5e57;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.university-links a:hover {
+    color: #a76c58;
+}
+
+.content {
+    border: 10px solid #d0c2b1;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.intro h2, .suns h2 {
+    font-size: 1.8rem;
+    color: #8b5e57;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.suns ul {
+    list-style: none;
+}
+
+.suns li {
+    margin: 10px 0;
+}
+
+.suns a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #8b5e57;
+}
+
+.suns a:hover {
+    color: #a76c58;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #8b5e57;
+}

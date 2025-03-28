@@ -1,0 +1,85 @@
+
+.container{
+    margin: auto;
+    width: 60%;
+    max-width: 500px;
+    background-color: #e6dcd0;
+    border: 2px solid #d0c2b1;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    transition: opacity 0.2s;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .btn i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+
+  .facebook-btn {
+    background-color: #1877F2; 
+  }
+
+  .x-btn {
+    background-color: #000000;
+  }
+  .circle{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background: gray
+  }
+  .inputs{
+    list-style-type: none;
+   text-align: center;
+  }
+ 
+  table{
+    margin :auto;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   .Login{
+    background-color:#1877F2;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+      }
+.input{
+  display: inline-block; 
+  width: 380px; 
+  height: 45px; 
+  font-size: 16px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  box-sizing: border-box
+}
+.inputs li {
+  margin-bottom: 15px; 
+  text-align: center; 
+}
+a{
+  margin-left: 10px;
+}

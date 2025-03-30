@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Sponsorship</title>
+</head>
+<body>
+    <div>
+        <h1>Sponsorship</h1>
+        <hr>
+        <img src="./img/building-insurance.png" alt="organization">
+        <form action="https://httpbin.org/post" method="post">
+            <table>
+                <h2>non-profit organization</h2>
+                <tr>
+                    <td colspan="3">
+                        <label for="name">name</label>
+                        <br>
+                        <input type="text" name="name" id="name">
+                    </td>
+                    <td colspan="3">
+                        <label for="phone">phone number</label>
+                        <br>
+                        <input type="number" name="phone" id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <label for="street-adress-org">street adress</label>
+                        <br>
+                        <input type="text" name="street-adress-org" id="street-adress-org">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="city-org">City</label>
+                        <br>
+                        <input type="text" name="city-org" id="city-org">
+                    </td>
+                    <td colspan="2">
+                        <label for="State-org">State</label>
+                        <br>
+                        <input type="text" name="State-org" id="State-org">
+                    </td><td colspan="2">
+                        <label for="code-org">City</label>
+                        <br>
+                        <input type="number" name="code-org" id="code-org">
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <img src="./img/user.png" alt="user">
+            <h2>sponsor contact information</h2>
+
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <label for="first-name">first name</label>
+                        <br>
+                        <input type="text" name="first-name" id="first-name">
+                    </td>
+                    <td colspan="3">
+                        <label for="last-name">last name</label>
+                        <br>
+                        <input type="text" name="last-name" id="last-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <label for="street-adress-sponsor">street adress</label>
+                        <br>
+                        <input type="text" name="street-adress-sponsor" id="street-adress-sponsor">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="city-sponsor">City</label>
+                        <br>
+                        <input type="text" name="city-sponsor" id="city-sponsor">
+                    </td>
+                    <td colspan="2">
+                        <label for="State-sponsor">State</label>
+                        <br>
+                        <input type="text" name="State-sponsor" id="State-sponsor">
+                    </td><td colspan="2">
+                        <label for="code-sponsor">City</label>
+                        <br>
+                        <input type="number" name="code-sponsor" id="code-sponsor">
+                    </td>
+            </table>
+            <hr>
+            <img src="./img/dollar-symbol.png" alt="">
+            <table>
+                <tr>
+                    <td colspan="3" class="money">
+                        <label for="donation-amount">donation amount</label>
+                        <br>
+                        <select name="donation-amount" id="donation-amount">
+                            <option value="" disabled selected>Please select an amount</option>
+                            <option value="50">50$</option>
+                            <option value="500">500$</option>
+                            <option value="5000">5000$</option>
+                        </select>
+                    </td>
+                
+                    <td colspan="3" class="money">
+                        <label for="payment-method">payment method</label>
+                        <br>
+                        <select name="payment-method" id="payment-method">
+                            <option value="" disabled selected>Please select a payment method</option>
+                            <option value="50">paypal</option>
+                            <option value="500">CIB</option>
+                            <option value="5000">HSBC</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <button type="submit">Submit</button>
+    </div>
+    
+
+    
+</body>
+</html>

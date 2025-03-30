@@ -1,35 +1,30 @@
 div{
     margin: auto;
     width: 60%;
-    max-width: 410px;
+    max-width: 550px;
     background-color: #ffffff;
-    border: 2px solid #ff8c00;
+    border: 2px solid green;
     padding: 20px;
     border-radius: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
 }
+h1{
+    color: green;
+    
+}
+h2{
+    color: green;
+}
 hr{
-     border: none;
-      height: 2px; 
-     background-color: orange;
+    border: none;
+     height: 2px; 
+    background-color: greenyellow;
 }
-td +td {
-    padding-left: 50px;
-}
-.gender{
-    border: 0px;
-
-}
-input{
-    border-radius: 5px ;
-    border: 1px solid rgb(193, 125, 0);
-    font-size: 14px;
-}
-.submit-btn{
+button{
     padding: 12px 20px;
     color: rgb(255, 255, 255);
-    background-color: #ff8c00;
+    background-color: green;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -39,4 +34,13 @@ input{
     margin: 10px;
     transition: opacity 0.2s;
     width: 90%
+}
+br+ input{
+    width: 90%;
+}
+.money{
+    width: 100%;
+}
+img{
+    width: 50px;
 }

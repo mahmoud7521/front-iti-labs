@@ -3,15 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Registration</h1>
-        <table>
-            <tr>
+        <h1><b>Registration</b></h1>
+        <hr>
+        <form action="https://httpbin.org/post" method ="post">
+            <table>
+
+                <tr>
+                    <td>
+                        <label for="full-name">Full Name</label>
+                        <br>
+                        <input type="text" name="full-name" id="full-name"required>
+
+                    </td>
+                    <td>
+                        <label for="user-name">Username</label>
+                        <br>
+                        <input type="text" name="user-name" id="user-name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                    <td>
+                        <label for="phone">Phone Number</label>
+                        <br>
+                        <input type="number" name="phone-number" id="phone-number" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" name="password" id="password"required>
+                    </td>
+                    <td>
+                        <label for="confirm-password">Confirm Password</label>
+                        <br>
+                        <input type="password" name="confirm-password" id="confirm-password"required>
+                    </td>
+                </tr>
+
+            </table>
+            
+            <fieldset class="gender">
+                <legend>Gender</legend>
+        
+                <input type="radio" id="male" value="male" name="gender" />
+                <label for="male">Male</label>
                 
-            </tr>
-        </table>
+                <input type="radio" id="female" value="female" name="gender" />
+                <label for="female">Female</label>
+                
+                <input type="radio" id="perfer-not-to-say" value="perfer-not-to-say" name="gender" />
+                <label for="perfer-not-to-say">Prefere not to say</label>
+
+              </fieldset>
+
+              <button type="submit" class="submit-btn">Register</button>
+        </form>
     </div>
 </body>
 </html>

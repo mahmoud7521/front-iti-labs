@@ -1,4 +1,4 @@
-div{
+.container{
     margin: auto;
     width: 60%;
     max-width: 410px;
@@ -14,9 +14,7 @@ hr{
       height: 2px; 
      background-color: orange;
 }
-td +td {
-    padding-left: 50px;
-}
+
 .gender{
     border: 0px;
 
@@ -25,6 +23,10 @@ input{
     border-radius: 5px ;
     border: 1px solid rgb(193, 125, 0);
     font-size: 14px;
+    height: 30px;
+}
+fieldset input{
+    height: auto;
 }
 .submit-btn{
     padding: 12px 20px;
@@ -39,4 +41,8 @@ input{
     margin: 10px;
     transition: opacity 0.2s;
     width: 90%
+}
+div div{
+    display: inline-block;
+    margin-left: 10px;
 }

@@ -1,46 +1,54 @@
-div{
-    margin: auto;
-    width: 60%;
-    max-width: 550px;
-    background-color: #ffffff;
-    border: 2px solid green;
-    padding: 20px;
-    border-radius: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
+.container {
+  margin: auto;
+  width: 60%;
+  max-width: 550px;
+  background-color: #ffffff;
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
 }
-h1{
-    color: green;
-    
+h1 {
+  color: green;
 }
-h2{
-    color: green;
+h2 {
+  color: green;
 }
-hr{
-    border: none;
-     height: 2px; 
-    background-color: greenyellow;
+hr {
+  border: none;
+  height: 2px;
+  background-color: greenyellow;
 }
-button{
-    padding: 12px 20px;
-    color: rgb(255, 255, 255);
-    background-color: green;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    align-items: center;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    margin: 10px;
-    transition: opacity 0.2s;
-    width: 90%
+button {
+  padding: 12px 20px;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  transition: opacity 0.2s;
+  width: 90%;
 }
-br+ input{
-    width: 90%;
+br + input {
+  width: 90%;
 }
-.money{
-    width: 100%;
+
+img {
+  width: 50px;
 }
-img{
-    width: 50px;
+.togther div {
+  display: inline-block;
+}
+.payment-method {
+  margin-left: 100px;
+}
+input,
+option {
+  font-size: 16px;
+  border-radius: 2px;
 }

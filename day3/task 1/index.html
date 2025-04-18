@@ -8,63 +8,36 @@
 </head>
 <body>
     <div class="container">
-
-        <div class="social-btn">
-            <table>
-                <tr>
-                    <td> <button class="btn facebook-btn">
-                        <i class="fab fa-facebook-f"></i> Login with Facebook
-                      </button>
-                    </td>
-                    <td>
-                        <button class="btn x-btn">
-                            <i class="fab fa-x-twitter"></i> Login with X
-                          </button>
-                    </td>
-
-                </tr>
-            </table>
-        </div>
-        <div class="circle">OR</div>
-        <ul class="inputs" >
-            <li>
-                
-                <input class="input" type="text" id="username" name="username">
-            </li>
-            <li>
-                <input class="input" type="password" id="password" name="password">
-
-            </li>
-        </ul>
-        <table>
-            <tr>
-                <td>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="social-btn">
+                <button class="btn facebook-btn">
+                    <i class="fab fa-facebook-f"></i> Login with Facebook
+                </button>
+                <button class="btn x-btn">
+                    <i class="fab fa-x-twitter"></i> Login with X
+                </button>
+            </div>
+            <div class="circle">OR</div>
+            <ul class="inputs">
+                <li>
+                    <input class="input" type="text" id="username" name="username" placeholder="Username">
+                </li>
+                <li>
+                    <input class="input" type="password" id="password" name="password" placeholder="Password">
+                </li>
+            </ul>
+            <div class="options">
+                <label>
                     <input type="checkbox" id="keep-me-sign" name="keep-me-sign">
-                    <label for="keep-me-sign">Keep me signed in</label>
-                </td>
-                <td>
-                    <a href="https//:www.facebook.com" target="_blank">Forgot your password?</a>
-                </td>
-            </tr>
-        </table>
-        
-        <table>
-            <tr>
-                <td>
-                    <button class="Login btn">Login</button>
-                </td>
-                
-            </tr>
-            <tr>
-
-                <td>
-                   Not a member ? <a href="https//:www.facebook.com" target="_blank">Sign up now!</a>
-                </td>
-            </tr>
-        </table>
-
+                    Keep me signed in
+                </label>
+                <a href="https://www.facebook.com" target="_blank">Forgot your password?</a>
+            </div>
+            <div class="actions">
+                <button type="submit" class="btn Login">Login</button>
+                <p>Not a member? <a href="https://www.facebook.com" target="_blank">Sign up now!</a></p>
+            </div>
+        </form>
     </div>
-      
-    
 </body>
 </html>
